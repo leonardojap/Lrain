@@ -3,6 +3,16 @@
     By Ing.leonard92@gmail.com
 */
 
+    /*
+        0: ramdom rain / luvia ramdom
+        1: leaf rain / lluvia de hojas
+        2: drops rain / lluvia gotas de agua
+        3: snow / copos de nieve
+        4: Storm / tormenta (conbinacion)
+    */
+   //params: type rain / tipo de luvia
+   //        nummber drops  / cantidad de gotas sobre la pantalla
+   
 function generateLrain(type, count) {
     for(var i = 0; i < count; i++){
         var timeInterval = Math.floor((Math.random() * 6000) + 100);
